@@ -21,7 +21,7 @@ An empty seed: which simply produces a grid which is empty at every time step.
 An oscillator: 3 live cells in a line which alternates between horizontal and vertical with each time step.
 A glider: A simple "glider", a shape which travels in the SE direction forever. The shape repeats every 4 time steps, displaced by one row and one column.
 A reverse_glider: As above, but travelling in the NW direction.
-A glider_gun: A seed which generates SE travelling gliders indefinitely.
+A glider_gun: The Gosper glider gun - A seed which generates SE travelling gliders indefinitely.
 A random seed: Creates an initial grid in which the live cells are chosen at random within the given boundary.
 
 # Examples
@@ -29,9 +29,11 @@ A random seed: Creates an initial grid in which the live cells are chosen at ran
 <p align="center">
 <img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-04%20at%2019.01.56.png" alt="alt text" width="40%" height="30%"></p>
 
-A screenshot of the Gosper glider gun after numerous timesteps. (test seed: glider_gun)
+<p align="center">
+A screenshot of the Gosper glider gun after numerous timesteps. (test seed: glider_gun)</p>
 
 <p align="center">
 <img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-03%20at%2015.03.08.png" alt="alt text" width="35%" height="30%"></p>
 
-A screenshot of a random seed after numerous timesteps. (test seed: random)
+<p align="center">
+A screenshot of a random seed after numerous timesteps. (test seed: random)</p>
