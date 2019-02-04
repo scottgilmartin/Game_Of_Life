@@ -13,10 +13,10 @@ Run the code and enter (type in console) the name of one of the test seeds.
 choice = None
 
 CHOICE_MAP = {'glider':glider, 'oscillator':oscillator, 'reverse_glider':reverse_glider,
-              'random':random, 'glider_gun':glider_gun}
+              'random':random, 'glider_gun':glider_gun, 'empty':empty}
 
 choice = input("To play, choose from one of the following seeds: glider, oscillator,"+
-               "reverse_glider, glider_gun, or random: ")
+               "reverse_glider, glider_gun, empty or random: ")
 
 if choice in CHOICE_MAP:
     
