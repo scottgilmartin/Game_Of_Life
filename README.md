@@ -21,7 +21,7 @@ The pre-made seed grids are:
 * An oscillator: 3 live cells in a line which alternates between horizontal and vertical with each time step.
 * A glider: A simple "glider", a shape which travels in the SE direction forever. The shape repeats every 4 time steps, displaced by one row and one column.
 * A reverse_glider: As above, but travelling in the NW direction.
-* A glider_gun: The Gosper glider gun - A seed which generates SE travelling gliders indefinitely.
+* A glider_gun: The Gosper glider gun - a seed which generates SE travelling gliders indefinitely.
 * A random seed: Creates an initial grid in which the live cells are chosen at random within the given boundary.
 
 # Examples
