@@ -27,11 +27,11 @@ A random seed: Creates an initial grid in which the live cells are chosen at ran
 # Examples
 
 <p align="center">
-<img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-04%20at%2019.01.56.png" alt="alt text" width="60%" height="50%"></p>
+<img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-04%20at%2019.01.56.png" alt="alt text" width="40%" height="30%"></p>
 
-Gosper glider gun after numerous timesteps. (test seed: glider_gun)
+A screenshot of the Gosper glider gun after numerous timesteps. (test seed: glider_gun)
 
 <p align="center">
-<img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-03%20at%2015.03.08.png" alt="alt text" width="50%" height="40%"></p>
+<img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-03%20at%2015.03.08.png" alt="alt text" width="35%" height="30%"></p>
 
 A screenshot of a random seed after numerous timesteps. (test seed: random)
