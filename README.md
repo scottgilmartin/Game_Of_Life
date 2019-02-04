@@ -13,3 +13,25 @@ pre-made seed grids:
 <p align="center">
 <img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-04%20at%2021.29.35.png" alt="alt text" width="60%" height="50%"></p>
 
+The user should type the seed of their choice and press enter. A matplotlib animation will then be generated showing the grid as it evolves with each time step. The animation will run until closed.
+
+The pre-made seed grids are:
+
+An empty seed: which simply produces a grid which is empty at every time step.
+An oscillator: 3 live cells in a line which alternates between horizontal and vertical with each time step.
+A glider: A simple "glider", a shape which travels in the SE direction forever. The shape repeats every 4 time steps, displaced by one row and one column.
+A reverse_glider: As above, but travelling in the NW direction.
+A glider_gun: A seed which generates SE travelling gliders indefinitely.
+A random seed: Creates an initial grid in which the live cells are chosen at random within the given boundary.
+
+# Examples
+
+<p align="center">
+<img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-04%20at%2019.01.56.png" alt="alt text" width="60%" height="50%"></p>
+
+Gosper glider gun after numerous timesteps. (test seed: glider_gun)
+
+<p align="center">
+<img src="https://github.com/scottgilmartin/Game_Of_Life/blob/master/Images/Screen%20Shot%202019-02-03%20at%2015.03.08.png" alt="alt text" width="50%" height="40%"></p>
+
+A screenshot of a random seed after numerous timesteps. (test seed: random)
